@@ -7,9 +7,10 @@ RUN apt-get update
 #Upgrade currently installed software
 RUN apt-get install -y coreutils
 
-#Install python3, python3-pip, and flask
+#Install python3, python3-pip, flask, and flask-cors
 RUN apt-get install -y python3 python3-pip
 RUN pip install flask
+RUN pip3 install flask-cors
 
 #Making working directory
 WORKDIR /app
