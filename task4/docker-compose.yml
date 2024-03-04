@@ -18,5 +18,3 @@ services:
       image: softy-pinko-back-end:task4
       ports:
         - "9999:4567"
-      depends_on:
-        - front-end
