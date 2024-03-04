@@ -7,8 +7,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - "9999:4567"
-      depends_on:
-        - back-end
+    depends_on:
+      - back-end
 
   back-end:
     build:
