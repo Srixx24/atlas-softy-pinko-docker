@@ -1,0 +1,2 @@
+# Docker compose command
+docker-compose up --scale back-end=2 -d
